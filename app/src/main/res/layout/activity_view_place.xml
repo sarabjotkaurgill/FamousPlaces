@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/pName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="35sp"
+            android:textColor="@color/colorBackground"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/pImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/pImage"
+            android:layout_width="380dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/pName"
+            app:layout_constraintBottom_toTopOf="@id/pDesc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/pDesc"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            app:layout_goneMarginRight="25dp"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="@color/colorDes"
+            android:typeface="normal"
+            android:layout_marginTop="15dp"
+            app:layout_constraintTop_toBottomOf="@id/pImage"
+            app:layout_constraintBottom_toTopOf="@id/viewMap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/viewMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/view_on_map"
+            android:textSize="20sp"
+            android:background="@color/colorBackground"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pDesc" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
