@@ -6,29 +6,29 @@ Project is regarding famous places in Motreal.
 
 # Project has:
 
-### SplashActivity
+* SplashActivity
 
-### RegistrationActivity: 
+* RegistrationActivity: 
        Validation form
        Use of Shared Preferences
 
-### Login Activity:
+* Login Activity:
        Validation form
        Use of Shared Preferences
 
-### HomeActivity:
+* HomeActivity:
        Use of List View
        On click on view button next page(ViewPlaceActivity) open for description of particular location.
        Logout(use of menu and dialog)
 
-### PlacesAdapter:
+* PlacesAdapter:
        Use of intent to pass data
 
-### ViewPlaceActivity:
+* ViewPlaceActivity:
        Use of ScrollView
        On click on View on Map, Google Map open which show the location of that partcular place
 
-### Use of Resources(string, color)
+* Use of Resources(string, color)
 
 
 ## Team
