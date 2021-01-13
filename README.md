@@ -5,7 +5,7 @@ Developed, designed and implemented Android application where user can register 
 Project is regarding famous places in Motreal.
 
 
-# Project has:
+## Project has:
 
 * SplashActivity
 
